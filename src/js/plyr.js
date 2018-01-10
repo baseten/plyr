@@ -3752,7 +3752,7 @@
             // Issue raised https://github.com/vimeo/player.js/issues/87
             case 'vimeo':
                 basic = true;
-                full = !isOldIE && !isIos;
+                full = !isOldIE;
                 break;
 
             case 'youtube':
